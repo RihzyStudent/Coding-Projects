@@ -1,0 +1,25 @@
+{
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "GCC Version 11.2",
+			"command": "D:\\Learning to code in c++\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\Build.exe",
+				"-static"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: \"D:\\Learning to code in c++\\mingw64\\bin\\g++.exe\""
+		}
+	]
+}
