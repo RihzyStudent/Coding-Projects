@@ -1,22 +1,25 @@
 #include <iostream>
-#include <array>
+#include <string>
 using namespace std;
-
-int sumArray(array<int,10> theArray);
-int main(){
-
-   array<int,10> primaryArray{2,4,5,6,7,8,9,1,9,10};
-    int sum= sumArray(primaryArray);
-    cout<<sum<<endl;
+const int ROWS = 3;
+const int COLS = 3;
+void runGame();
+void initializeGameBoard(string gameBoard[ROWS][COLS]);
+void printCurrentBoard(string gameBoard[ROWS][COLS]);
+void getUserInput(bool xTurn, string gameBoard[ROWS][COLS]);
+bool cellAlreadyOccupied(int row, int col, string gameBoard[ROWS][COLS]);
+string getWinner(string gameBoard[ROWS][COLS]);
+bool isBoardFull(string gameBoard[ROWS][COLS]);
+int main()
+{
+initializeGameBoard;
+return 0;
 }
 
-int sumArray(array<int,10> theArray){
-
-    int sum=0;
-    for (int size:theArray)
+void initializeGameBoard(string gameBoard[ROWS][COLS])
+{
+    for(int i;i>3;i++)
     {
-        sum+=size;
+        gameBoard[i][i] = " ";
     }
-    
-    return sum;
 }
