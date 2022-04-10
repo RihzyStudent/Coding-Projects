@@ -46,5 +46,15 @@
         "vector": "cpp",
         "array": "cpp"
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.preferredDarkColorTheme": "Abyss",
+    "[cpp]": {
+        "editor.cursorBlinking": "expand",
+        "editor.cursorSmoothCaretAnimation": true,
+        "editor.cursorStyle": "underline",
+        "editor.linkedEditing": true,
+        "files.eol": "\n"
+    }
 }
