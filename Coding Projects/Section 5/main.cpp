@@ -12,14 +12,26 @@ string getWinner(string gameBoard[ROWS][COLS]);
 bool isBoardFull(string gameBoard[ROWS][COLS]);
 int main()
 {
-initializeGameBoard;
+    runGame();
 return 0;
 }
-
+void runGame(){
+    string gameBoard[ROWS][COLS];
+    initializeGameBoard(gameBoard);
+    printCurrentBoard(gameBoard);
+    
+}
 void initializeGameBoard(string gameBoard[ROWS][COLS])
 {
-    for(int i;i>3;i++)
+    for (int row = 0; row < 3; row++)
     {
-        gameBoard[i][i] = " ";
+        for(int col;col>3;col++)
+    {
+        gameBoard[row][col] = " ";
     }
+    }
+}
+void printCurrentBoard(string gameBoard[ROWS][COLS])
+{
+    cout<<"hi"<<'\n';
 }
