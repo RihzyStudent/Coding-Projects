@@ -56,5 +56,6 @@
         "editor.cursorStyle": "underline",
         "editor.linkedEditing": true,
         "files.eol": "\n"
-    }
+    },
+    "editor.cursorBlinking": "expand"
 }
