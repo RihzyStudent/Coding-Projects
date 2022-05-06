@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
-#include <conio.h>
 using namespace std;
 float sum=0;
 int nextNum;
@@ -23,7 +22,7 @@ int ans =roundDown(suum);
         while (count_digit(nextNum)>1)
         {
         nextNum*=(pow(10,(count_digit(sum)-1)));  
-        nextNum = sum-nextNum;
+        nextNum = sum-nextNum;a
         nextNum =roundDown(nextNum);
         numero.push_back(nextNum);
         cout<<nextNum<<endl;
@@ -32,7 +31,6 @@ int ans =roundDown(suum);
 cout<<ans;
     
 
-getch();
 
 }
 int add(){

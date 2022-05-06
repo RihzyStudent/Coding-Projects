@@ -1,16 +1,46 @@
 {
+	"version": "2.0.0",
 	"tasks": [
 		{
 			"type": "cppbuild",
-			"label": "GCC Version 11.2",
-			"command": "D:\\Learning to code in c++\\mingw64\\bin\\g++.exe",
+			"label": "GCC 11.2",
+			"command": "/usr/bin/g++",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}\\Build.exe",
-				"-static"
+				"${fileDirname}/${fileBasenameNoExtension}",
+				"-std=gnu++11",
+				"-fpermissive",
+				"-fno-exceptions",
+				"-ffunction-sections",
+				"-fdata-sections",
+				"-fno-threadsafe-statics",
+				"-Wno-error=narrowing"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/g++"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: cpp build active file",
+			"command": "/usr/bin/cpp",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
@@ -19,7 +49,27 @@
 				"$gcc"
 			],
 			"group": "build",
-			"detail": "compiler: \"D:\\Learning to code in c++\\mingw64\\bin\\g++.exe\""
+			"detail": "compiler: /usr/bin/cpp"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: clang++ build active file",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /usr/bin/clang++"
 		}
 	]
 }
