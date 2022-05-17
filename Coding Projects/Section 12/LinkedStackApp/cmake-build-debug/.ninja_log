@@ -1,0 +1,4 @@
+# ninja log v5
+2	220	6745102104546945	build.ninja	d9c472c2bc337a76
+4	343	6745094520408150	CMakeFiles/LinkedStackApp.dir/main.cpp.obj	1335fc278af13240
+343	472	6745094521679301	LinkedStackApp.exe	d0fb2e32a5ab83cd
