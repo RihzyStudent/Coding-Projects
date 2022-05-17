@@ -1,0 +1,14 @@
+# ninja log v5
+561	698	6742272023612649	AnimalFun.exe	cd7357c2f0ef32b1
+4	560	6742272022251410	CMakeFiles/AnimalFun.dir/main.cpp.obj	b3e2151cdc00b57
+1	203	6742272338419399	build.ninja	4267a75df557b2cb
+22	582	6742271972441122	CMakeFiles/AnimalFun.dir/Animal.cpp.obj	aa5ef953d62ced2f
+15	592	6742271972531200	CMakeFiles/AnimalFun.dir/Dog.cpp.obj	ed4cdd5ab01119e3
+15	575	6742317931154439	CMakeFiles/AnimalFun.dir/Cat.cpp.obj	b6d6552cb8021aee
+3	561	6742320158741529	CMakeFiles/AnimalFun.dir/main.cpp.obj	b3e2151cdc00b57
+15	572	6742320158861638	CMakeFiles/AnimalFun.dir/Cat.cpp.obj	b6d6552cb8021aee
+572	712	6742320160222877	AnimalFun.exe	656ca7191b1eee42
+3	521	6742322419842157	CMakeFiles/AnimalFun.dir/main.cpp.obj	b3e2151cdc00b57
+522	643	6742322421043244	AnimalFun.exe	656ca7191b1eee42
+3	570	6742323346446710	CMakeFiles/AnimalFun.dir/main.cpp.obj	b3e2151cdc00b57
+570	707	6742323347787927	AnimalFun.exe	656ca7191b1eee42

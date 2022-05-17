@@ -1,0 +1,3 @@
+C:/Users/dbehl/CLionProjects/StackFun/cmake-build-debug/CMakeFiles/StackFun.dir
+C:/Users/dbehl/CLionProjects/StackFun/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dbehl/CLionProjects/StackFun/cmake-build-debug/CMakeFiles/rebuild_cache.dir

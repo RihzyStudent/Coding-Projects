@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\dbehl\source\repos\Logic error\Logic error\main.cpp(48,33): warning C4101: 'err': unreferenced local variable
+C:\Users\dbehl\source\repos\Logic error\Logic error\main.cpp(52,29): warning C4101: 'err': unreferenced local variable
+  Logic error.vcxproj -> C:\Users\dbehl\source\repos\Logic error\x64\Debug\Logic error.exe

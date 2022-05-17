@@ -1,0 +1,32 @@
+The perimeter is : 28
+The area is: 24
+The perimeter is : 28
+The area is: 40
+The perimeter is : 18
+The area is: 20
+The perimeter is : 28
+The area is: 48
+The perimeter is : 56
+The area is: 160
+The perimeter is : 32
+The area is: 60
+The perimeter is : 22
+The area is: 30
+The perimeter is : 20
+The area is: 25
+The perimeter is : 12
+The area is: 8
+The perimeter is : 20
+The area is: 9
+The perimeter is : 8
+The area is: 3
+The perimeter is : 18
+The area is: 14
+The perimeter is : 34
+The area is: 72
+The perimeter is : 48
+The area is: 144
+The perimeter is : 22
+The area is: 30
+The perimeter is : 42
+The area is: 110

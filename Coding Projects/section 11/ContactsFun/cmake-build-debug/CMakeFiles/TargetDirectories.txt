@@ -1,0 +1,3 @@
+C:/Users/dbehl/CLionProjects/ContactsFun/cmake-build-debug/CMakeFiles/ContactsFun.dir
+C:/Users/dbehl/CLionProjects/ContactsFun/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dbehl/CLionProjects/ContactsFun/cmake-build-debug/CMakeFiles/rebuild_cache.dir

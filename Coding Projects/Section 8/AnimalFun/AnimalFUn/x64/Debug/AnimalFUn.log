@@ -1,0 +1,7 @@
+﻿  Animal.h
+  Dog.cpp
+  main.cpp
+  Generating Code...
+x64\Debug\Animal.obj : warning LNK4042: object specified more than once; extras ignored
+Dog.obj : error LNK2019: unresolved external symbol "public: __cdecl animal::animal(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,double)" (??0animal@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@N@Z) referenced in function "public: __cdecl dog::dog(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0dog@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@N0@Z)
+C:\Users\dbehl\source\repos\AnimalFUn\x64\Debug\AnimalFUn.exe : fatal error LNK1120: 1 unresolved externals
