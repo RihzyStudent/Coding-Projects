@@ -3,4 +3,4 @@ project(ArrayListApp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ArrayListApp main.cpp)
+add_executable(ArrayListApp main.cpp List.h ArrayList.h)

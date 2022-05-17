@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: ArrayListApp
+# Project: LinkedListApp
 # Configurations: Debug
 # =============================================================================
 
@@ -39,46 +39,46 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/dbehl/OneDrive/Documents/Repos/Coding-Projects/Coding$ Projects/Section$ 12/ArrayListApp/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/dbehl/OneDrive/Documents/Repos/Coding-Projects/Coding$ Projects/Section$ 12/LinkedListApp/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target ArrayListApp
+# Object build statements for EXECUTABLE target LinkedListApp
 
 
 #############################################
-# Order-only phony target for ArrayListApp
+# Order-only phony target for LinkedListApp
 
-build cmake_object_order_depends_target_ArrayListApp: phony || CMakeFiles/ArrayListApp.dir
+build cmake_object_order_depends_target_LinkedListApp: phony || CMakeFiles/LinkedListApp.dir
 
-build CMakeFiles/ArrayListApp.dir/main.cpp.obj: CXX_COMPILER__ArrayListApp_Debug C$:/Users/dbehl/OneDrive/Documents/Repos/Coding-Projects/Coding$ Projects/Section$ 12/ArrayListApp/main.cpp || cmake_object_order_depends_target_ArrayListApp
-  DEP_FILE = CMakeFiles\ArrayListApp.dir\main.cpp.obj.d
+build CMakeFiles/LinkedListApp.dir/main.cpp.obj: CXX_COMPILER__LinkedListApp_Debug C$:/Users/dbehl/OneDrive/Documents/Repos/Coding-Projects/Coding$ Projects/Section$ 12/LinkedListApp/main.cpp || cmake_object_order_depends_target_LinkedListApp
+  DEP_FILE = CMakeFiles\LinkedListApp.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\ArrayListApp.dir
-  OBJECT_FILE_DIR = CMakeFiles\ArrayListApp.dir
+  OBJECT_DIR = CMakeFiles\LinkedListApp.dir
+  OBJECT_FILE_DIR = CMakeFiles\LinkedListApp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ArrayListApp
+# Link build statements for EXECUTABLE target LinkedListApp
 
 
 #############################################
-# Link the executable ArrayListApp.exe
+# Link the executable LinkedListApp.exe
 
-build ArrayListApp.exe: CXX_EXECUTABLE_LINKER__ArrayListApp_Debug CMakeFiles/ArrayListApp.dir/main.cpp.obj
+build LinkedListApp.exe: CXX_EXECUTABLE_LINKER__LinkedListApp_Debug CMakeFiles/LinkedListApp.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ArrayListApp.dir
+  OBJECT_DIR = CMakeFiles\LinkedListApp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = ArrayListApp.exe
-  TARGET_IMPLIB = libArrayListApp.dll.a
-  TARGET_PDB = ArrayListApp.exe.dbg
+  TARGET_FILE = LinkedListApp.exe
+  TARGET_IMPLIB = libLinkedListApp.dll.a
+  TARGET_PDB = LinkedListApp.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\dbehl\OneDrive\Documents\Repos\Coding-Projects\Coding Projects\Section 12\ArrayListApp\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\dbehl\OneDrive\Documents\Repos\Coding-Projects\Coding Projects\Section 12\LinkedListApp\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +89,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\dbehl\OneDrive\Documents\Repos\Coding-Projects\Coding Projects\Section 12\ArrayListApp\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\dbehl\OneDrive\Documents\Repos\Coding-Projects\Coding Projects\Section 12\ArrayListApp" -B"C:\Users\dbehl\OneDrive\Documents\Repos\Coding-Projects\Coding Projects\Section 12\ArrayListApp\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\dbehl\OneDrive\Documents\Repos\Coding-Projects\Coding Projects\Section 12\LinkedListApp\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\dbehl\OneDrive\Documents\Repos\Coding-Projects\Coding Projects\Section 12\LinkedListApp" -B"C:\Users\dbehl\OneDrive\Documents\Repos\Coding-Projects\Coding Projects\Section 12\LinkedListApp\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build ArrayListApp: phony ArrayListApp.exe
+build LinkedListApp: phony LinkedListApp.exe
 
 # =============================================================================
 # Folder targets.
@@ -107,9 +107,9 @@ build ArrayListApp: phony ArrayListApp.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/dbehl/OneDrive/Documents/Repos/Coding-Projects/Coding Projects/Section 12/ArrayListApp/cmake-build-debug
+# Folder: C:/Users/dbehl/OneDrive/Documents/Repos/Coding-Projects/Coding Projects/Section 12/LinkedListApp/cmake-build-debug
 
-build all: phony ArrayListApp.exe
+build all: phony LinkedListApp.exe
 
 # =============================================================================
 # Built-in targets
