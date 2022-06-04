@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Purr</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1 class="catext">Do you want to hear the cute cat purr?</h1>
+        <img src="cat.jpg" alt="Cute Cat" >
+        <button class="btn">Purr for me bbg</button> 
+        <script>'use strict';
+            let playSound = () => new Audio("purr.mp3").play()
+            
+            const switcher = document.querySelector('.btn');
+            switcher.addEventListener('click', function(){
+                console.log('hi');
+                playSound();
+                this.textContent='Purring <3';
+            })</script>
+    </body>
+</html>
