@@ -1,0 +1,15 @@
+/Users/dhruvbehl/Projects/delhi/delhi/bin/Debug/net6.0/delhi
+/Users/dhruvbehl/Projects/delhi/delhi/bin/Debug/net6.0/delhi.deps.json
+/Users/dhruvbehl/Projects/delhi/delhi/bin/Debug/net6.0/delhi.runtimeconfig.json
+/Users/dhruvbehl/Projects/delhi/delhi/bin/Debug/net6.0/delhi.dll
+/Users/dhruvbehl/Projects/delhi/delhi/bin/Debug/net6.0/delhi.pdb
+/Users/dhruvbehl/Projects/delhi/delhi/obj/Debug/net6.0/delhi.csproj.AssemblyReference.cache
+/Users/dhruvbehl/Projects/delhi/delhi/obj/Debug/net6.0/delhi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dhruvbehl/Projects/delhi/delhi/obj/Debug/net6.0/delhi.AssemblyInfoInputs.cache
+/Users/dhruvbehl/Projects/delhi/delhi/obj/Debug/net6.0/delhi.AssemblyInfo.cs
+/Users/dhruvbehl/Projects/delhi/delhi/obj/Debug/net6.0/delhi.csproj.CoreCompileInputs.cache
+/Users/dhruvbehl/Projects/delhi/delhi/obj/Debug/net6.0/delhi.dll
+/Users/dhruvbehl/Projects/delhi/delhi/obj/Debug/net6.0/refint/delhi.dll
+/Users/dhruvbehl/Projects/delhi/delhi/obj/Debug/net6.0/delhi.pdb
+/Users/dhruvbehl/Projects/delhi/delhi/obj/Debug/net6.0/delhi.genruntimeconfig.cache
+/Users/dhruvbehl/Projects/delhi/delhi/obj/Debug/net6.0/ref/delhi.dll
